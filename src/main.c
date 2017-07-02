@@ -5,9 +5,11 @@
 
 #include "functions.h"
 
+#define SIZE_OF_ARRAY 20
+
 int main(int argc, char* argv[])
 	{
-	int i, heap_size = 0, size;
+	int i, heap_size = 0, size = SIZE_OF_ARRAY;
 	int *array;	
 	double sttime, endtime;
 		
@@ -22,9 +24,8 @@ int main(int argc, char* argv[])
   		printf("malloc failed\n");
   		return -1;
 		}
-	
-	size = atoi(argv[2]);
-	
+
+		
 	//Initialize array		
 	srand(time(NULL));
 	for (i = 0 ; i < size ; i++)	
