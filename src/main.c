@@ -5,11 +5,9 @@
 
 #include "functions.h"
 
-#define SIZE_OF_ARRAY 20
-
 int main(int argc, char* argv[])
 	{
-	int i, heap_size = 0, size = SIZE_OF_ARRAY;
+	int i, heap_size = 0, size;
 	int *array;	
 	double sttime, endtime;
 		
@@ -18,7 +16,9 @@ int main(int argc, char* argv[])
 		printf("Error in input arguments\n");
 		return -1;
 		}	
-				
+		
+	size = atoi(argv[2]);
+		
 	if ((array = malloc(size * sizeof(int))) == NULL) 
 		{
   		printf("malloc failed\n");
