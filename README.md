@@ -1,6 +1,3 @@
-# Sorting-Algorithms #
-
-
 ## Overview
 A collection of sorting algorithms implemented in C language. Algorithms included are:
 
