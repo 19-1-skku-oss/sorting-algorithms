@@ -13,4 +13,4 @@ A collection of sorting algorithms implemented in C language. Algorithms include
 * Heap Sort (-heap)
 
 
-Makefile included for compiling with the command 'make'. Output file named 'sorting' with 2 arguments, which first one is the algorithm oo your choice and the second the size of the array to sort. e.g sorting -selection 1000 for a 1000 elements array to be sorted by Selection Algorithm
+Makefile included for compiling with the command 'make'. Output file named 'sorting' with 2 arguments, which first one is the algorithm of your choice and the second the size of the array to sort. For example "./sorting -selection 1000" to sort a 1000 elements array using Selection Sort Algorithm.
